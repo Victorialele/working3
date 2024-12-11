@@ -1,0 +1,267 @@
+@media (max-width: 1024px) {
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+    .navbar-nav .nav-link {
+        font-size: 0.8rem;
+    }
+    .navbar-nav .nav-link.btn-warning {
+        font-size: 0.6rem;
+        margin-bottom: 2%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        justify-content: center;
+    }
+    .navbar-nav .nav-item {
+        margin: 0 0.5rem;
+    }
+    .navbar-nav .nav-link.btn-warning {
+        width: 20%; 
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+    .navbar-nav .nav-link.btn-warning {
+        font-size: 0.9rem;
+        margin-bottom: 2%;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar-nav .nav-link.btn-warning {
+        width: 30%; 
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .navbar-nav .nav-link {
+        font-size: 0.8rem;
+    }
+    .navbar-nav .nav-link.btn-warning {
+        font-size: 0.7rem;
+        margin-bottom: 3%;
+    }
+
+}
+.navbar-nav .nav-item {
+    margin-right: 0.5%; 
+}
+.navbar-brand {
+    color: orange;
+}
+.navbar-nav .nav-link {
+    color: black;
+    
+}
+.navbar-nav {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2%;
+}
+.navbar-collapse {
+    margin-left: 30%;
+}
+.navbar-toggler {
+    background-color: #ffc107; 
+    border: 2px solid #000; 
+    border-radius: 5px; 
+}
+
+
+.highlight {
+    color: orange;
+}
+
+
+.section-intro .container{
+    padding-top: 5vw;
+
+    background-image: url(image/man.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10%) top;
+    height: 30vw;
+    background-size: 30vw;
+}
+
+.section-intro .intro-promotion{
+font-size: 4vw;
+line-height: 5vw;
+letter-spacing: -0.04em;
+
+margin-bottom: 2vw;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+}
+
+.section-intro .intro-comment{
+  margin-bottom: 2vw;
+  font-size: 1vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+.card img {
+    width: 5vw;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+@media (max-width: 768px) {
+    .card-text{
+        font-size: 0.6rem;
+    }
+    .card-title{
+        font-size: 0.5rem;
+    }
+    .wct{
+        font-size: 4vw;
+    }
+    .card img {
+        width: 7vw;
+    }
+
+}
+@media (max-width: 375px) {
+
+    .card-text{
+        font-size: 0.5rem;
+    }
+    .card-title{
+        font-size: 0.1rem;
+    }
+    .wct{
+        font-size: 0.7rem;
+    }
+    .card {
+        margin-left: 2%;
+    }
+    .card img {
+        width: 7vw;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .card-text{
+        font-size: 1vw;
+    }
+    .card-title{
+        font-size: 1.45vw;
+    }
+    .wct{
+        font-size: 2.7vw;
+    }
+    .card {
+        margin-left: 3%;
+    }
+
+}
+
+.card-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+
+    color: black;
+}
+.card-text{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+
+    color: black;
+}
+.card {
+    border: none;
+}
+.wct{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(0, 0, 0) ;
+}
+
+
+.destination-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.destination-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.destination-card:hover img {
+    transform: scale(1.1);
+}
+.responsive-title {
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    color: black;
+
+    margin-bottom: 2%;
+}
+
+.centered-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+.footer {
+    background-color: #05073C;
+    padding: 3% 0;
+}
+.footer h5 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.footer p {
+    color: #cfcfcf;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.footer a {
+    color: #b1b1b1;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 14px;
+    
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .form-control {
+    border-radius: 0;
+}
+.footer .btn {
+    border-radius: 0;
+}
